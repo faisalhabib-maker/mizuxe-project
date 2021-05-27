@@ -1,0 +1,148 @@
+body {
+  margin-top: 93px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: .8;
+}
+
+.navbar .navbar-item {
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+
+.navbar .navbar-item .nav-link {
+  color: black;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.navbar .navbar-item .nav-link:hover {
+  color: #3292a6;
+}
+
+.navbar .navbar-item:last-child {
+  padding-right: 0;
+}
+
+#home-main {
+  background: url("img/mountains.jpg");
+  height: 600px;
+}
+
+#home-main .home-overlay {
+  background: rgba(50, 146, 156, 0.7);
+  height: 600px;
+}
+
+#home-main .home-overlay .img-fluid {
+  width: 85%;
+}
+
+#home-main .home-overlay h1 {
+  font-size: 100px;
+}
+
+#home-main .home-overlay a {
+  border-radius: 0px;
+}
+
+#subscribe {
+  background: #252525;
+}
+
+#subscribe .btn-sub {
+  background: #3292A6;
+}
+
+#boxes .boxe {
+  background: #3292A6;
+}
+
+#about h2 {
+  color: #3292A6;
+}
+
+#author .icon {
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+  opacity: 0;
+}
+
+#author .icon a {
+  color: #ffffff;
+  padding: 0 10px;
+  font-size: 25px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#author .card-body:hover {
+  background: #3292A6 !important;
+  color: white !important;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#author .card-body:hover .icon {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  opacity: 1;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#author .icon a:hover {
+  color: black;
+}
+
+#author .card-body:hover .btn-icon {
+  -webkit-transform: translatex(-100px);
+          transform: translatex(-100px);
+  opacity: 0;
+}
+
+.btn-in {
+  background: #3292A6;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+img.img-fluid.mlogo {
+  margin-top: 115px;
+  width: 60%;
+}
+
+footer {
+  background: #3292A6;
+  color: white;
+  font-size: 19px;
+  font-weight: normal;
+}
+
+img.img-fluid.w-50.mx-auto.rounded-circle.mb-3 {
+  margin-top: -60px;
+}
+
+@media screen and (max-width: 576px) {
+  #home-main .home-header {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #home-main .home-header {
+    font-size: 80px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #home-main .home-header {
+    font-size: 100px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

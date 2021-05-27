@@ -1,0 +1,166 @@
+
+$primary: #3292a6;
+$overlay: rgba(50,146,156,0.7);
+
+body{
+    margin-top: 93px;
+}
+
+
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    background: #fff;
+    opacity: .8;
+
+    .navbar-item{
+        font-size: 1.4rem;
+        padding-right: 20px;
+
+        .nav-link{
+            color: black;
+            transition: .2s;
+        }
+        .nav-link:hover{
+            color:$primary;
+        }
+    }
+    .navbar-item:last-child{
+        padding-right: 0;
+    }
+
+   
+}
+#home-main{
+    background: url('img/mountains.jpg') ;
+  height: 600px;
+    
+
+    .home-overlay{
+        background: $overlay;
+        height: 600px;
+
+        .img-fluid{
+            width: 85%;
+          
+        }
+        h1{
+            font-size: 100px;
+        }
+        a{
+            border-radius: 0px;
+        }
+    }
+}
+
+#subscribe{
+    background: #252525;
+
+   .btn-sub{
+       background: #3292A6;
+   }
+}
+#boxes{
+
+  
+    .boxe{
+        background: #3292A6;
+    }
+}
+#about{
+
+    h2{
+        color: #3292A6;
+    }
+}
+#author{
+
+    .icon{
+         transform: translateY(-80px);
+         opacity: 0;
+         
+         
+         a{
+             color: #ffffff;
+             padding: 0 10px;
+             font-size: 25px;
+             transition: .3s;
+         }
+
+    }
+    
+    .card-body:hover{
+        background: #3292A6 !important;
+        color: white !important;
+        transition: .3s;
+    }
+  
+
+    .card-body:hover .icon{
+        transform: translateY(-30px);
+        opacity: 1;
+        transition: .5s;
+    
+        
+    }
+    
+    .icon a:hover {
+       color: black;
+    
+    
+    }
+    .card-body:hover .btn-icon{
+        transform: translatex(-100px);
+        opacity: 0;
+    }
+    
+    
+}
+.btn-in{
+    background: #3292A6;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+img.img-fluid.mlogo {
+    margin-top: 115px;
+    width: 60%;
+}
+footer{
+    background: #3292A6;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+img.img-fluid.w-50.mx-auto.rounded-circle.mb-3 {
+    margin-top: -60px;
+}
+@media screen and (max-width:576px){
+ 
+    #home-main .home-header{
+            font-size: 70px !important;
+        }
+   
+}
+@media screen and (min-width:992px){
+ 
+    #home-main .home-header{
+            font-size: 80px !important;
+        }
+   
+}
+@media screen and (min-width:1200px){
+ 
+    #home-main .home-header{
+        font-size: 100px!important;
+        }
+   
+}
+
+
+
